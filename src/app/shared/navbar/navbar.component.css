@@ -1,0 +1,21 @@
+.navbar{
+    background-color:#35ae81;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 1px 0px 20px 1px;
+    margin-bottom: 20px;
+}
+.container-fluid a{
+    color: white;
+}
+.container-fluid img{
+    padding-right: 20px;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn{
+    color: black;
+    border: 1px solid white;
+}
