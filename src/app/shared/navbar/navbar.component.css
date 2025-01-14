@@ -19,3 +19,8 @@
     color: black;
     border: 1px solid white;
 }
+.log button{
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+}
