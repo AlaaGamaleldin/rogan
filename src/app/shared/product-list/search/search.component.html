@@ -1,5 +1,5 @@
 <div class="rogan-search-product">
-    <input class="rogan-search-product-input">
+    <input class="rogan-search-product-input" [(ngModel)]="searchText">
     <button class="btn btn-search">search</button>
 </div>
-<div class="rogan-search-result-for"><p><strong>Search result for:</strong>Mens wear</p></div>
+<div class="rogan-search-result-for"><p><strong>Search result for:</strong>{{ searchText }}</p></div>
