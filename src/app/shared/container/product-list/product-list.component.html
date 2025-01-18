@@ -1,0 +1,19 @@
+<div class="rogan-products-container">
+<div class="rogan-product-item" *ngFor="let item of products">
+    <div class="rogan-wishlist-sale-container">
+        <div class="rogan-add-to-wishlist">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+        </div>
+        <!-- <div class="rogan-on-sale-tag">75% OFF</div> -->
+    </div>
+    <div class="rogan-product-img">
+        <img [src]="item.imageURL" alt="" class="rogan-product-img">
+    </div>
+    <div class="rogan-add-to-price">
+        {{ item.price }}
+    </div>
+    <div class="rogan-product-name">{{ item.name }}</div>
+    <div class="rogan-product-category"> {{ item.gender }} . {{ item.category }} . {{ item.brand }}</div>
+    <div class="rogan-product-available-color">{{ item.color.length }} </div>
+</div>
+</div>
