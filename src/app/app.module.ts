@@ -5,9 +5,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ProductListComponent } from './shared/product-list/product-list.component';
-import { SearchComponent } from './shared/product-list/search/search.component';
+import { ContainerComponent} from './shared/container/container.component';
+import { SearchComponent } from './shared/container/search/search.component';
 import { FormsModule } from '@angular/forms';
+import { ProductListComponent } from './shared/container/product-list/product-list.component';
 
 
 
@@ -16,8 +17,9 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    ProductListComponent,
+    ContainerComponent,
     SearchComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
